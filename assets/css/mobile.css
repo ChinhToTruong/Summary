@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+body{
+
+    height: 900px;
+}
+.container{
+    padding: 0 80px 30px 80px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 40px 40px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.container .title{
+    margin: 30px 0;
+    font-weight: 500;
+    color:hsl(241, 100%, 89%);
+}
+.container span{
+    margin-bottom: 20px;
+}
+.container span h3{
+    color: white;
+    font-size: 1.4rem;
+}
+.score{
+    margin-bottom: 30px;
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.score h1{
+    color: white;
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+}
+.score h3{
+    font-size: 0.8rem;
+    color: hsl(241, 100%, 89%);
+}
+.container h4{
+    color: hsl(241, 100%, 89%);
+    font-size: 0.8rem;
+}
+
+.under-container{
+    padding: 40px 40px;
+}
+
+.under-container .item{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    margin: 20px 0px;
+    justify-content: space-between;
+}
+
+.under-container .item .icon{
+    margin: 0 10px;
+}
+.under-container .item .rank{
+    color: hsl(224, 30%, 27%);
+    font-size: 0.8rem;
+    margin-right: 10px;
+}
+.under-container .item h3{
+    font-size: 0.8rem;
+}
+.btn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-radius: 30px;
+    background: hsl(224, 30%, 27%);
+}
+.btn h1{
+    color: white;
+}
+.btn:hover{
+    background-color: hsl(252, 100%, 67%);
+}
