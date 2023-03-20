@@ -1,17 +1,26 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 18px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 18px;
 }
-body{
+@media (min-width: 376px) {
+    .body{
+      display: flex;
+      justify-content: space-between; 
+      width: 800px; 
+      height: 600px;
+      border-radius: 40px; 
+      background-color: antiquewhite;
+    }
+    body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 900px;
-}
-.container{
+  }
+  .container {
     padding: 30px 60px;
     text-align: center;
     flex-direction: column;
@@ -21,20 +30,20 @@ body{
     height: auto;
     border-radius: 40px;
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-}
-.container .title{
+  }
+  .container .title {
     margin: 30px 0;
     font-weight: 500;
-    color:hsl(241, 100%, 89%);
-}
-.container span{
+    color: hsl(241, 100%, 89%);
+  }
+  .container span {
     margin-bottom: 20px;
-}
-.container span h3{
+  }
+  .container span h3 {
     color: white;
     font-size: 1.4rem;
-}
-.score{
+  }
+  .score {
     margin-bottom: 30px;
     width: 240px;
     height: 240px;
@@ -43,50 +52,50 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.score h1{
+  }
+  .score h1 {
     color: white;
     font-size: 4.2rem;
     margin-bottom: 8px;
-}
-.score h3{
+  }
+  .score h3 {
     font-size: 1.2rem;
     color: hsl(241, 100%, 89%);
-}
-.container h4{
+  }
+  .container h4 {
     color: hsl(241, 100%, 89%);
     font-size: 0.8rem;
-}
+  }
 
-.under-container{
+  .under-container {
     width: 100%;
     padding: 40px 20px;
-}
-.under-container h3 {
+  }
+  .under-container h3 {
     font-size: 2.2rem;
     padding-bottom: 20px;
-}
-.under-container .item{
+  }
+  .under-container .item {
     width: 100%;
     display: flex;
     height: 60px;
     align-items: center;
     margin: 25px 0px;
     justify-content: space-between;
-}
+  }
 
-.under-container .item .icon{
+  .under-container .item .icon {
     margin: 0 10px;
-}
-.under-container .item .rank{
+  }
+  .under-container .item .rank {
     color: hsl(224, 30%, 27%);
     font-size: 0.8rem;
     margin-right: 10px;
-}
-.under-container .item h3{
+  }
+  .under-container .item h3 {
     font-size: 0.8rem;
-}
-.btn{
+  }
+  .btn {
     margin-top: 60px;
     display: flex;
     width: 100%;
@@ -95,10 +104,11 @@ body{
     height: 60px;
     border-radius: 30px;
     background: hsl(224, 30%, 27%);
-}
-.btn h1{
+  }
+  .btn h1 {
     color: white;
-}
-.btn:hover{
+  }
+  .btn:hover {
     background-color: hsl(252, 100%, 67%);
+  }
 }
